@@ -147,7 +147,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* ----------? */
 }
 
 .mob-menu-list {
@@ -225,11 +224,9 @@ body {
     
     letter-spacing: 0.02em;
     color: var(--often-color);
-    /* margin-bottom: 48px; */
     text-align: center;
     margin-left: auto;
-    margin-right: auto; 
-     /*------------  */
+    margin-right: auto;
     font-size: 36px;
     line-height: 1.11;
     margin-bottom: 72px;
@@ -1030,14 +1027,18 @@ textarea {
         font-size: 16px;
         line-height: 1.5;
     }
+    .adress-list {
+        gap: 40px;
+    }
     .hero {
     max-width: 1440px;
     padding-bottom: 188px; 
     padding-top: 188px;
     }
     .backdrop {
-        width: 1440px;
-        height: 600px;
+        position: fixed;
+        /* width: 1440px;
+        height: 600px; */
     }
     .doing {
     padding-top: 0;
